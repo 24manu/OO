@@ -36,9 +36,7 @@ $cahit = new Mechant([
         "statusMechant"=>3
 ]);
 
-var_dump($cahit);
-$balek = $mechantManager->SelectAllMechant();
-var_dump($balek);
+
 
 
 ?><hr>
@@ -67,6 +65,11 @@ if(!empty($_POST)){
 ?>
 
 <h3>Affichez tous les méchants !</h3>
+<?php
+var_dump($cahit);
+$balek = $mechantManager->SelectAllMechant();
+var_dump($balek);
+?>
 </body>
 
 </html>

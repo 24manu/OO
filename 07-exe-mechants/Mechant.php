@@ -1,4 +1,4 @@
-<?php
+ <?php
 // mapping de la table mechant en PHP 8.0
 
 class mechant
